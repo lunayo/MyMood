@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D48E24169D08B000890A00 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D48E23169D08B000890A00 /* Cocoa.framework */; };
+		20D48E26169D08B000890A00 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D48E25169D08B000890A00 /* AppleScriptObjC.framework */; };
+		20D48E30169D08B000890A00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E2E169D08B000890A00 /* InfoPlist.strings */; };
+		20D48E32169D08B000890A00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D48E31169D08B000890A00 /* main.m */; };
+		20D48E36169D08B000890A00 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E34169D08B000890A00 /* Credits.rtf */; };
+		20D48E38169D08B000890A00 /* MMAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 20D48E37169D08B000890A00 /* MMAppDelegate.applescript */; };
+		20D48E3B169D08B000890A00 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E39169D08B000890A00 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D48E1F169D08B000890A00 /* MyMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D48E23169D08B000890A00 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		20D48E25169D08B000890A00 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		20D48E28169D08B000890A00 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		20D48E29169D08B000890A00 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20D48E2A169D08B000890A00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20D48E2D169D08B000890A00 /* MyMood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMood-Info.plist"; sourceTree = "<group>"; };
+		20D48E2F169D08B000890A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D48E31169D08B000890A00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D48E33169D08B000890A00 /* MyMood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMood-Prefix.pch"; sourceTree = "<group>"; };
+		20D48E35169D08B000890A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20D48E37169D08B000890A00 /* MMAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = MMAppDelegate.applescript; sourceTree = "<group>"; };
+		20D48E3A169D08B000890A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D48E1C169D08B000890A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D48E24169D08B000890A00 /* Cocoa.framework in Frameworks */,
+				20D48E26169D08B000890A00 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D48E14169D08B000890A00 = {
+			isa = PBXGroup;
+			children = (
+				20D48E2B169D08B000890A00 /* MyMood */,
+				20D48E22169D08B000890A00 /* Frameworks */,
+				20D48E20169D08B000890A00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D48E20169D08B000890A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E1F169D08B000890A00 /* MyMood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D48E22169D08B000890A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E23169D08B000890A00 /* Cocoa.framework */,
+				20D48E25169D08B000890A00 /* AppleScriptObjC.framework */,
+				20D48E27169D08B000890A00 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D48E27169D08B000890A00 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E28169D08B000890A00 /* AppKit.framework */,
+				20D48E29169D08B000890A00 /* CoreData.framework */,
+				20D48E2A169D08B000890A00 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20D48E2B169D08B000890A00 /* MyMood */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E37169D08B000890A00 /* MMAppDelegate.applescript */,
+				20D48E39169D08B000890A00 /* MainMenu.xib */,
+				20D48E2C169D08B000890A00 /* Supporting Files */,
+			);
+			path = MyMood;
+			sourceTree = "<group>";
+		};
+		20D48E2C169D08B000890A00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E2D169D08B000890A00 /* MyMood-Info.plist */,
+				20D48E2E169D08B000890A00 /* InfoPlist.strings */,
+				20D48E31169D08B000890A00 /* main.m */,
+				20D48E33169D08B000890A00 /* MyMood-Prefix.pch */,
+				20D48E34169D08B000890A00 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D48E1E169D08B000890A00 /* MyMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D48E3E169D08B000890A00 /* Build configuration list for PBXNativeTarget "MyMood" */;
+			buildPhases = (
+				20D48E1B169D08B000890A00 /* Sources */,
+				20D48E1C169D08B000890A00 /* Frameworks */,
+				20D48E1D169D08B000890A00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMood;
+			productName = MyMood;
+			productReference = 20D48E1F169D08B000890A00 /* MyMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D48E16169D08B000890A00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Lunayo;
+			};
+			buildConfigurationList = 20D48E19169D08B000890A00 /* Build configuration list for PBXProject "MyMood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20D48E14169D08B000890A00;
+			productRefGroup = 20D48E20169D08B000890A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D48E1E169D08B000890A00 /* MyMood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D48E1D169D08B000890A00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D48E30169D08B000890A00 /* InfoPlist.strings in Resources */,
+				20D48E36169D08B000890A00 /* Credits.rtf in Resources */,
+				20D48E3B169D08B000890A00 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D48E1B169D08B000890A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D48E32169D08B000890A00 /* main.m in Sources */,
+				20D48E38169D08B000890A00 /* MMAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20D48E2E169D08B000890A00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D48E2F169D08B000890A00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20D48E34169D08B000890A00 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D48E35169D08B000890A00 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20D48E39169D08B000890A00 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D48E3A169D08B000890A00 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D48E3C169D08B000890A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20D48E3D169D08B000890A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20D48E3F169D08B000890A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMood/MyMood-Prefix.pch";
+				INFOPLIST_FILE = "MyMood/MyMood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20D48E40169D08B000890A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMood/MyMood-Prefix.pch";
+				INFOPLIST_FILE = "MyMood/MyMood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D48E19169D08B000890A00 /* Build configuration list for PBXProject "MyMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D48E3C169D08B000890A00 /* Debug */,
+				20D48E3D169D08B000890A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D48E3E169D08B000890A00 /* Build configuration list for PBXNativeTarget "MyMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D48E3F169D08B000890A00 /* Debug */,
+				20D48E40169D08B000890A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D48E16169D08B000890A00 /* Project object */;
+}
