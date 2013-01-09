@@ -2,7 +2,7 @@
 //  main.m
 //  MyMood
 //
-//  Created by Lunayo on 09/01/2013.
+//  Created by Lunayo on 08/01/2013.
 //  Copyright (c) 2013 Lunayo. All rights reserved.
 //
 

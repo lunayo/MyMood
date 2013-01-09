@@ -14,6 +14,10 @@
 		20D48E36169D08B000890A00 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E34169D08B000890A00 /* Credits.rtf */; };
 		20D48E38169D08B000890A00 /* MMAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 20D48E37169D08B000890A00 /* MMAppDelegate.applescript */; };
 		20D48E3B169D08B000890A00 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E39169D08B000890A00 /* MainMenu.xib */; };
+		20D48E44169D092800890A00 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E43169D092800890A00 /* icon.icns */; };
+		20D48E46169D092E00890A00 /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D48E45169D092E00890A00 /* MenuIcon.png */; };
+		20D48E49169D094700890A00 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D48E48169D094700890A00 /* WebKit.framework */; };
+		20D48E4C169D096700890A00 /* MMMenuLet.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D48E4B169D096700890A00 /* MMMenuLet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,11 @@
 		20D48E35169D08B000890A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		20D48E37169D08B000890A00 /* MMAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = MMAppDelegate.applescript; sourceTree = "<group>"; };
 		20D48E3A169D08B000890A00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20D48E43169D092800890A00 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		20D48E45169D092E00890A00 /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
+		20D48E48169D094700890A00 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		20D48E4A169D096700890A00 /* MMMenuLet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMenuLet.h; sourceTree = "<group>"; };
+		20D48E4B169D096700890A00 /* MMMenuLet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMenuLet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D48E49169D094700890A00 /* WebKit.framework in Frameworks */,
 				20D48E24169D08B000890A00 /* Cocoa.framework in Frameworks */,
 				20D48E26169D08B000890A00 /* AppleScriptObjC.framework in Frameworks */,
 			);
@@ -65,6 +75,7 @@
 		20D48E22169D08B000890A00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20D48E48169D094700890A00 /* WebKit.framework */,
 				20D48E23169D08B000890A00 /* Cocoa.framework */,
 				20D48E25169D08B000890A00 /* AppleScriptObjC.framework */,
 				20D48E27169D08B000890A00 /* Other Frameworks */,
@@ -87,7 +98,10 @@
 			children = (
 				20D48E37169D08B000890A00 /* MMAppDelegate.applescript */,
 				20D48E39169D08B000890A00 /* MainMenu.xib */,
+				20D48E47169D093000890A00 /* Resources */,
 				20D48E2C169D08B000890A00 /* Supporting Files */,
+				20D48E4A169D096700890A00 /* MMMenuLet.h */,
+				20D48E4B169D096700890A00 /* MMMenuLet.m */,
 			);
 			path = MyMood;
 			sourceTree = "<group>";
@@ -102,6 +116,15 @@
 				20D48E34169D08B000890A00 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D48E47169D093000890A00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20D48E43169D092800890A00 /* icon.icns */,
+				20D48E45169D092E00890A00 /* MenuIcon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +182,8 @@
 				20D48E30169D08B000890A00 /* InfoPlist.strings in Resources */,
 				20D48E36169D08B000890A00 /* Credits.rtf in Resources */,
 				20D48E3B169D08B000890A00 /* MainMenu.xib in Resources */,
+				20D48E44169D092800890A00 /* icon.icns in Resources */,
+				20D48E46169D092E00890A00 /* MenuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +196,7 @@
 			files = (
 				20D48E32169D08B000890A00 /* main.m in Sources */,
 				20D48E38169D08B000890A00 /* MMAppDelegate.applescript in Sources */,
+				20D48E4C169D096700890A00 /* MMMenuLet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
