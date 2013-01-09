@@ -61,8 +61,8 @@ script MMAppDelegate
                             try
                                 set mood to " \"♫  " & moodMessage & "\""
                                 set aScript to "tell application id \"com.apple.iChat\"
-                                set status message to " & mood & "
-                            end tell" as text
+                                                set status message to " & mood & "
+                                                end tell" as text
                             run script aScript
                         end try
                     end if
@@ -71,8 +71,8 @@ script MMAppDelegate
                         try
                             set mood to " \"♫  " & moodMessage & "\""
                             set aScript to "tell application id \"com.adiumX.adiumX\"
-                            set set the status message of every account to " & mood & "
-                        end tell" as text
+                                            set the status message of every account to " & mood & "
+                                            end tell" as text
                         run script aScript
                     end try
                 end if
@@ -82,8 +82,8 @@ script MMAppDelegate
                     try
                         set mood to " \"SET PROFILE MOOD_TEXT (music)  " & moodMessage & " \" "
                         set aScript to "tell application id \"com.skype.skype\"
-                        send command " & mood & " script name \"MyMood\"
-                    end tell" as text
+                                        send command " & mood & " script name \"MyMood\"
+                                        end tell" as text
                     run script aScript
                 end try
             end if
