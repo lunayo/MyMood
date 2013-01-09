@@ -71,7 +71,7 @@ script MMAppDelegate
                         try
                             set mood to " \"♫  " & moodMessage & "\""
                             set aScript to "tell application id \"com.adiumX.adiumX\"
-                            set my status message to " & mood & "
+                            set set the status message of every account to " & mood & "
                         end tell" as text
                         run script aScript
                     end try
